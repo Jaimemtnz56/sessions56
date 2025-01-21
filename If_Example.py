@@ -9,7 +9,7 @@ try:
     age = int(age) #try to convert to a number
     if age >= 21:
         legal = True
-    if age < 16:
+    elif age < 16:
         legal = False
     else:
         country = input(f"Based on you age, I have to ask, Where are you from {name}?")
